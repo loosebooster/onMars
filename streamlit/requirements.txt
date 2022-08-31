@@ -1,0 +1,6 @@
+altair
+pandas
+streamlit
+streamlit_folium
+folium
+google-cloud-storage==2.5.0
