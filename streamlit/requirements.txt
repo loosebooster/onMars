@@ -1,6 +1,5 @@
 altair
 pandas
-numpy
 streamlit
 streamlit_folium
 folium
