@@ -4,9 +4,7 @@ import folium
 
 st.title("MODU's Location")
 
-
 # multi-selection
-
 ## source = data.stocks()
 ## all_symbols = source.symbol.unique()
 multi_select = st.multiselect('select',
@@ -32,3 +30,7 @@ folium.Circle(radius=500,
 
 # call to Folium map in Streamlit
 st_data = st_folium(m, width = 800)
+
+
+
+
