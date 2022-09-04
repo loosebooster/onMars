@@ -9,7 +9,7 @@ st.title("MODU's Location")
 
 ## source = data.stocks()
 ## all_symbols = source.symbol.unique()
-multi_select = st.multiselect('select',
+multi_select = st.multiselect('select: ',
     ['A', 'B', 'C', 'D'])
 
 
