@@ -14,7 +14,7 @@ multi_select = st.multiselect('Please select!',
 
 
 # center on, add marker
-m = folium.Map(location=[37.492151, 127.030949], tiles = "CartoDB positron", zoom_start=16)
+m = folium.Map(location=[37.492151, 127.030949], tiles = "location", zoom_start=16)
 folium.Marker(
     [37.492151, 127.030949],
     popup="HERE",
