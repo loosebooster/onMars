@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_folium import st_folium
 import folium
 
-st.title("MODU's Location")
+st.title("MODU's Location map")
 
 
 # multi-selection
