@@ -80,3 +80,10 @@ if st.button('PNU로 변환') :
     con.caption('PNU')
     con.subheader(output)
 
+
+
+
+
+
+
+
