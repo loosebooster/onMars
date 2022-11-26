@@ -79,5 +79,3 @@ if st.button('PNU로 변환') :
     con = st.container()
     con.caption('PNU')
     con.subheader(output)
-
-
