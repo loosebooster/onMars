@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: streamlitweb
+ labels:
+   app: streamlit
+spec:
+ selector:
+   matchLabels:
+     app: streamlit
+     tier: web
+ template:
+   metadata:
+     labels:
+       app: streamlit
+       tier: web
+   spec:
+     containers:
+     - name: streamlit-app
+       image: gcr.io/mini-project-0001/app
+       command: [ "/bin/bash", "-c", "--" ]
+       args: [ "while true; do sleep 30; done;" ]
+       ports:
+       - containerPort: 8501
