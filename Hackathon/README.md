@@ -3,7 +3,7 @@
 * 2022.8 - 2022.9
 * **Support Victory Machine**
 * **: Creating a sportsgame analysis-video based on object detection**
-* **by FoR-D**
+* by FoR-D
 
 ---
 
